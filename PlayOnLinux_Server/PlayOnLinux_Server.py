@@ -94,7 +94,7 @@ def main():
 
 
 
-print "Welcome to PlayOnLinux Script Server"
+print "Welcome to Megadriod Script Server"
 print ""
 
 print " - Cleaning old temporary files"
@@ -113,7 +113,7 @@ os.mkdir("/tmp/POLServer/V3_data/scripts/")
 try:
 	os.chdir("PlayOnLinuxData")	
 except:
-	print("E. Unable to access to PlayOnLinuxData folder.")
+	print("access to PlayOnLinuxData folder.")
 	print("You can download a script database here :")
 	print("http://repository.playonlinux.com/PlayOnLinux_Scripts.tar.gz")
 	print("Then, place PlayOnLinuxData folder in the same directory than the script")
